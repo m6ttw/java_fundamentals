@@ -13,7 +13,7 @@ public class Dog {
         this.name = name;
     }
 
-    public String woof(){
+    public String bark(){
         return "WOOF WOOF";
     }
 }
