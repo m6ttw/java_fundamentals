@@ -1,16 +1,7 @@
-public class Dog {
-    private String name;
+public class Dog extends Pet {
 
     public Dog(String name) {
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
+        super(name);
     }
 
     public String bark(){
